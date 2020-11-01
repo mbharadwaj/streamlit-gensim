@@ -4,6 +4,9 @@ A simple example to summarize text in Streamlit with [Gensim](https://radimrehur
 
 ![Example](./streamlit_gensim_demo.png).
 
+## Live demo
+
+[Demo (Heroku deployment)](https://streamlit-gensim.herokuapp.com/)
 
 ## Installation
 
