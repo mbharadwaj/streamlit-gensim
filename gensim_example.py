@@ -28,9 +28,9 @@ Summarization Options
 )
 ratio = st.sidebar.slider('Ratio (Fraction of original sentences in output)', min_value=0.0, max_value=1.0, value=0.2)
 word_count = st.sidebar.number_input("Word Count (Maximum words in summary)", min_value=None, max_value=150, step=10, value=50)
-split_output = st.sidebar.checkbox("Split Output", value=False)
-show_offsets = st.sidebar.checkbox("Show Offsets", value=False)
-process_keywords = st.sidebar.checkbox("Process Keywords", value=False)
+split_output = st.sidebar.checkbox("Split Output", value=True)
+show_offsets = st.sidebar.checkbox("Show Offsets", value=True)
+process_keywords = st.sidebar.checkbox("Process Keywords", value=True)
 
 input_col, result_col = st.beta_columns(2)
 
